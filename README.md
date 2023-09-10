@@ -1,8 +1,8 @@
 # ouster_pcap_to_pointcloud2_publisher
-A ROS2 Humble Package which publishes Ouster .pcap Lidar recordings to a PointCloud2 topic.
+A ROS2 Package which publishes Ouster .pcap Lidar recordings to a PointCloud2 topic.
 
 ## Distribution
-This package is distributed as a ROS2 Humble Package. It is not intended to be a standalone package, but rather a component of a larger system.
+This package is distributed as a **ROS2 Humble** Package. It is not intended to be a standalone package, but rather a component of a larger system.
 
 ## Requirements 
 * open3d = 0.17.0
@@ -31,6 +31,8 @@ source /path/to/your/ros2_ws/install/setup.bash
 ```console
 ros2 run ouster_pcap_to_pointcloud2_publisher ouster_pcap_to_pointcloud2_publisher pcap_file_path:=/path/to/your/pcap/file.pcap pcap_metadata_path:=/path/to/your/pcap/metadata.json
 ```
+6. Open rviz2 and add a PointCloud2 display with the topic `/output/pointcloud2`. You should see the pointcloud from your .pcap file.
+
 
 ## Acknowledgements
 This package is based on two sources:
