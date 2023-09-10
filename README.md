@@ -1,5 +1,5 @@
 # ouster_pcap_to_pointcloud2_publisher
-A ROS2 Package which publishes Ouster .pcap Lidar recordings to a PointCloud2 topic.  
+A ROS2 Package that publishes Ouster .pcap Lidar recordings to a PointCloud2 topic.  
 ![humble](https://github.com/rsasaki0109/lidarslam_ros2/workflows/humble/badge.svg)  
 
 ![DEMO](./resource/pcap_to_pointcloud2_Demo.gif)
