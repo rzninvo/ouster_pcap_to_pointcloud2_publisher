@@ -32,7 +32,7 @@ source /path/to/your/ros2_ws/install/setup.bash
 ```
 5. Run the package:  
 ```console
-ros2 run ouster_pcap_to_pointcloud2_publisher ouster_pcap_to_pointcloud2_publisher pcap_file_path:=/path/to/your/pcap/file.pcap pcap_metadata_path:=/path/to/your/pcap/metadata.json topic:=/output/pointcloud2 frame_id:=map
+ros2 launch ouster_pcap_to_pointcloud2_publisher pcap_to_ros_launch.xml pcap_file_path:=/path/to/your/pcap/file.pcap pcap_metadata_path:=/path/to/your/pcap/metadata.json topic:=/output/pointcloud2 frame_id:=map
 ```
 6. Open rviz2 and add a PointCloud2 display with the topic `/output/pointcloud2`. You should see the pointcloud from your .pcap file.
 
