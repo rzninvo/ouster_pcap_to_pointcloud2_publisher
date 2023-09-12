@@ -1,0 +1,24 @@
+[0.397s] Invoking command in '/home/rohamzn/ouster_pcap_to_pointcloud2_publisher': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/rohamzn/ouster_pcap_to_pointcloud2_publisher/build/ouster_pcap_to_pointcloud2_publisher/prefix_override:/home/rohamzn/ouster_pcap_to_pointcloud2_publisher/install/ouster_pcap_to_pointcloud2_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/ouster_pcap_to_pointcloud2_publisher build --build-base /home/rohamzn/ouster_pcap_to_pointcloud2_publisher/build/ouster_pcap_to_pointcloud2_publisher/build install --record /home/rohamzn/ouster_pcap_to_pointcloud2_publisher/build/ouster_pcap_to_pointcloud2_publisher/install.log --single-version-externally-managed
+[0.539s] running egg_info
+[0.539s] writing build/ouster_pcap_to_pointcloud2_publisher/ouster_pcap_to_pointcloud2_publisher.egg-info/PKG-INFO
+[0.539s] writing dependency_links to build/ouster_pcap_to_pointcloud2_publisher/ouster_pcap_to_pointcloud2_publisher.egg-info/dependency_links.txt
+[0.539s] writing entry points to build/ouster_pcap_to_pointcloud2_publisher/ouster_pcap_to_pointcloud2_publisher.egg-info/entry_points.txt
+[0.539s] writing requirements to build/ouster_pcap_to_pointcloud2_publisher/ouster_pcap_to_pointcloud2_publisher.egg-info/requires.txt
+[0.539s] writing top-level names to build/ouster_pcap_to_pointcloud2_publisher/ouster_pcap_to_pointcloud2_publisher.egg-info/top_level.txt
+[0.540s] reading manifest file 'build/ouster_pcap_to_pointcloud2_publisher/ouster_pcap_to_pointcloud2_publisher.egg-info/SOURCES.txt'
+[0.540s] adding license file 'LICENSE'
+[0.540s] writing manifest file 'build/ouster_pcap_to_pointcloud2_publisher/ouster_pcap_to_pointcloud2_publisher.egg-info/SOURCES.txt'
+[0.540s] running build
+[0.540s] running build_py
+[0.541s] running install
+[0.541s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.541s]   warnings.warn(
+[0.541s] running install_lib
+[0.542s] running install_data
+[0.542s] running install_egg_info
+[0.543s] removing '/home/rohamzn/ouster_pcap_to_pointcloud2_publisher/install/ouster_pcap_to_pointcloud2_publisher/lib/python3.10/site-packages/ouster_pcap_to_pointcloud2_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[0.543s] Copying build/ouster_pcap_to_pointcloud2_publisher/ouster_pcap_to_pointcloud2_publisher.egg-info to /home/rohamzn/ouster_pcap_to_pointcloud2_publisher/install/ouster_pcap_to_pointcloud2_publisher/lib/python3.10/site-packages/ouster_pcap_to_pointcloud2_publisher-0.0.0-py3.10.egg-info
+[0.543s] running install_scripts
+[0.555s] Installing pcap_to_ros_publisher script to /home/rohamzn/ouster_pcap_to_pointcloud2_publisher/install/ouster_pcap_to_pointcloud2_publisher/lib/ouster_pcap_to_pointcloud2_publisher
+[0.555s] writing list of installed files to '/home/rohamzn/ouster_pcap_to_pointcloud2_publisher/build/ouster_pcap_to_pointcloud2_publisher/install.log'
+[0.568s] Invoked command in '/home/rohamzn/ouster_pcap_to_pointcloud2_publisher' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/rohamzn/ouster_pcap_to_pointcloud2_publisher/build/ouster_pcap_to_pointcloud2_publisher/prefix_override:/home/rohamzn/ouster_pcap_to_pointcloud2_publisher/install/ouster_pcap_to_pointcloud2_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/ouster_pcap_to_pointcloud2_publisher build --build-base /home/rohamzn/ouster_pcap_to_pointcloud2_publisher/build/ouster_pcap_to_pointcloud2_publisher/build install --record /home/rohamzn/ouster_pcap_to_pointcloud2_publisher/build/ouster_pcap_to_pointcloud2_publisher/install.log --single-version-externally-managed
