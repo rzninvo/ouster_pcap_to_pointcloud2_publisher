@@ -3,9 +3,13 @@
     <arg name="pcap_metadata_path" default="test.json"/>
     <arg name="frame_id" default="base_link"/>
     <arg name="topic" default="ouster/lidar/pointcloud"/>
+    <arg name="publish_intensity" default="true"/>
+    <arg name="publish_frequency" default="10.0"/> <!--HZ-->
     <node pkg="ouster_pcap_to_pointcloud2_publisher" exec="pcap_to_ros_publisher" name="pcap_to_ros_publisher">
         <param name="pcap_file_path" value="$(var pcap_file_path)"/>
         <param name="pcap_metadata_path" value="$(var pcap_metadata_path)"/>
+        <param name="publish_frequency" value="$(var publish_frequency)"/>
+        <param name="publish_intensity" value="$(var publish_intensity)"/>
         <param name="topic" value="$(var topic)"/>
         <param name="frame_id" value="$(var frame_id)"/>
     </node>
